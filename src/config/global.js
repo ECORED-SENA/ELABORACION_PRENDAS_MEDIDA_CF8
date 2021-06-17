@@ -59,17 +59,8 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Supraciclaje',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_4_1',
-          },
-        ],
       },
     ],
     subMenu: [
