@@ -24,7 +24,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Atención al cliente y recepción de la prenda',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -45,16 +45,8 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Técnicas y proceso para arreglos de prendas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: '1.1 Título de segundo',
-            hash: 't_2_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
