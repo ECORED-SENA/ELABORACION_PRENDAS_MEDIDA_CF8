@@ -12,11 +12,11 @@
     
     .row.mb-4
       .col-1
-      .col-6.d-flex.align-items-center      
-          .cajon.color-primario.fondo-a.p-4
+      .col-6.d-flex    
+          .cajon.color-primario.fondo-a.p-4.d-flex.align-items-center 
             p Para alargar o ampliar una prenda se pueden reducir costuras, soltar ruedos y pinzas o añadir piezas textiles en boleros o en cortes; para reducir o acortar es más fácil ya que se tiene tela de sobra.
-      .col-4.d-flex.align-items-center.justify-content-center
-        figure.w-90
+      .col-4
+        figure
           img(src='@/assets/curso/tema2/img01.svg', alt='Texto que describa la imagen')          
       .col-1
 

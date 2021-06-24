@@ -62,14 +62,15 @@ export default {
         titulo: 'Supraciclaje',
         desarrolloContenidos: true,
       },
-    ],
-    subMenu: [
       {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Acabados y terminados',
         desarrolloContenidos: true,
       },
+    ],
+    subMenu: [
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -99,135 +100,141 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+      referencia: '1.000 cursos gratis (2019). Costura y sastrería. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://1000cursosgratis.com/curso-profesional-de-costura-y-sastreria/',
     },
     {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+      referencia: '123rf (2021). Imagen. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://es.123rf.com/photo_89500746_agujas-y-alfileres-sobre-fondo-blanco-dibujo-colorido-ilustraci%C3%B3n-de-accesorios-para-artesan%C3%ADas-vector.html',
     },
     {
-      referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+      referencia: '123rf. (2021). Imagen. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://es.123rf.com/photo_74730255_tipos-constituci%C3%B3n-del-cuerpo-femenino-peso-normal-y-delgada-figura-de-la-grasa-de-una-mujer-ectomorfo-.html',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'De Duarte, N. (1983). Conocimientos básicos de corte. Unidad instruccional No. 3 [Ebook]. Servicio Nacional de Aprendizaje SENA. ',
+      link: 'https://hdl.handle.net/11404/1432.',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'García, A. (2018). Sistema de reciclaje de textiles post-consumo para el desarrollo de productos de economía circular en la ciudad de Bogotá, D.C. [Tesis de maestría]. Universidad Distrital, Bogotá, Colombia. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://repository.udistrital.edu.co/bitstream/handle/11349/13550/Garc%EDaAcostaM%F3nicaViviana2018.pdf;jsessionid=B3275F3F4782A5F7AF1F12BF67314DD5?sequence=1',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Herramientas. (2021). Herramientas para taller de costura.  ',
+      link: 'https://herramientas.tv/herramientas-para-taller-de-costura/',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Inexmoda. (s.f.). Fashion Snoops. Sistema de Bibliotecas SENA. ',
+      link: 'https://www-fashionsnoops-com.bdigital.sena.edu.co/Default.aspx',
+    },
+    {
+      referencia: 'Istock. (2021). Imagen  ',
+      link: 'https://www.istockphoto.com/es/fotos/sastre',
+    },
+    {
+      referencia:
+        'Knight, L. (2012). Secretos de una buena costurera. Editorial Océano Ámbar. ',
+    },
+    {
+      referencia: 'Luisa Pagnoli. (2021). Luisa Pagnoli. ',
+      link: 'https://www.luisaspagnoli.it/it_it/',
+    },
+    {
+      referencia: 'Naii. (2015). 3 maneras de descoser.  ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.naiicostura.com/3-maneras-de-descoser-costura-overlock/',
+    },
+    {
+      referencia:
+        'Plásticamente bilingüe. (2021). El cuerpo humano: mi versión. ',
+      link:
+        'https://plasticamentebilingue.blogspot.com/2020/05/el-cuerpo-humano-mi-version-de-keith.html',
+    },
+    {
+      referencia: 'Sea. (2021). Upcycling. ',
+      link: 'http://sea.com.uy/upcycling-una-alternativa-de-reciclaje-textil/',
+    },
+    {
+      referencia: 'Skarlet Costura. (2021). Cómo descoser.  ',
+      link: 'https://skarlett.es/como-descoser/',
+    },
+    {
+      referencia: 'Vestuario. (s.f.). Tiza de sastre herramienta de costura. ',
+      link:
+        'http://www.vestuariocr.com/costura-general/tecnicas-de-costura/181-tiza-de-sastre-herramientas-de-costura-para-que-sirve-como-funciona-aprende-a-coser.html',
+    },
+    {
+      referencia: 'Zicla. (2019). Residuos textiles.  ',
+      link: 'https://www.zicla.com/blog/residuos-textiles-reciclaje-ropa/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Piquetes',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'línea corta (0,3 máximo 0, 5 cm) en dirección perpendicular al molde, señaladas en el patrón con el fin de facilitar la operación de confección, al indicar ubicaciones, y guiar al unir cortes.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Procedimiento',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'descripción precisa de los pasos para realizar un proceso. Es la respuesta al cómo hacer el proceso.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Proceso',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'descripción general de los pasos de una actividad o conjunto de operaciones.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Talla',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'expresión normalizada que permite identificar a las personas para el uso de prendas de vestir.',
     },
     {
-      termino: 'Moda',
+      termino: 'Hilvanar',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'coser a mano con la implementación de diversas puntadas, esto lo define su finalidad.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Forro',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'tela que está integrada a una prenda, comparten patrón y molde pero estas difieren en largo, por ejemplo en chaquetas',
     },
     {
-      termino: 'Tipología',
+      termino: 'Bies',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'término sinónimo de sesgo, quiere decir que fue cortado a un ángulo de 45°.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Entretela',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'base que estabiliza una pieza que servirá de refuerzo en vistas o partes que necesiten dar soporte a una estructura de la prenda.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Guata',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'grupo de filamentos que sirven para acolchar y suele ser usado en hombreras.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Fibra textil',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'grupo de filamentos que pueden ser de origen natural, sintéticas o artificial.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Durán, D. (2013). Adaptaciones en prendas de vestir: arreglos y adaptaciones de prendas y artículos en textil y piel (UF1032). IC Editorial. ',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/43643 ',
     },
   ],
   creditos: {
@@ -245,11 +252,37 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Ledy Johana Velásquez Hernández',
+        cargo: 'Experto temático',
+        centro: 'Regional Antioquia - Diseño, confección y moda.',
+      },
+      {
+        nombre: 'Paola Angélica Castro Salazar',
+        cargo: 'Experto temático',
+        centro: 'Regional Antioquia - Diseño, confección y moda',
+      },
+      {
+        nombre: 'Paula Andrea Taborda Ortiz',
+        cargo: 'Diseñador instruccional',
+        centro: 'Regional distrito capital - Centro de diseño y metrología.',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        cargo: 'Responsable equipo',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -259,25 +292,39 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: [
+          'Adriana Suarez',
+          'Angela Maldonado',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Jessica Moreno Realpe',
+          'Ludwyng Corzo',
+          'Victor Cardenas',
+          'Wilson Andrés Arenales Caceres',
+          'Zuleidy Maria Ruiz Torres',
+        ],
+        cargo: 'Producción audiovisua',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Edgar Mauricio Cortes García',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

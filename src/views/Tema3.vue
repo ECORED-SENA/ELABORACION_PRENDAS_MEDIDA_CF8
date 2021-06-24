@@ -12,106 +12,111 @@
     
     .row.mb-4
       .col-4.d-flex
-        div.sombra           
+        div.sombra2           
           div
+            p.tituloimagen.ms-1 Cortahilos o despeluzador
             figure
               img(src='@/assets/curso/tema3/img01.svg', alt='Texto que describa la imagen')     
-          div.p-4.fondo-e
-            p <b>Figura 6</b>. Cortahilos o despeluzador
+              figcaption.figcaption2 Nota. Tomada de Herramientas (2021)       
       .col-4.d-flex
-        div.sombra          
+        div.sombra2          
           div
+            p.tituloimagen.ms-1 Desbaratador
             figure
               img(src='@/assets/curso/tema3/img02.svg', alt='Texto que describa la imagen')     
-          div.p-4.fondo-e
-            p <b>Figura 7</b>. Desbaratador
+              figcaption.figcaption2 Nota. Tomada de Herramientas (2021) 
       .col-4.d-flex
-        div.sombra          
+        div.sombra2          
           div
+            p.tituloimagen.ms-1 Metro
             figure
               img(src='@/assets/curso/tema3/img03.svg', alt='Texto que describa la imagen')     
-          div.p-4.fondo-e
-            p <b>Figura 8</b>. Metro
+              figcaption.figcaption2 Nota. Tomada de Herramientas (2021) 
     .row.mb-4
       .col-4.d-flex
-        div.sombra           
+        div.sombra2           
           div
+            p.tituloimagen.ms-1 Tiza de sastre
             figure
               img(src='@/assets/curso/tema3/img04.svg', alt='Texto que describa la imagen')     
-          div.p-4.fondo-e
-            p <b>Figura 9</b>. Tiza de sastre
+              figcaption.figcaption2 Nota. Tomada de Vestuario (s.f.)
       .col-4.d-flex
-        div.sombra          
+        div.sombra2          
           div
+            p.tituloimagen.ms-1 Tijeras
             figure
               img(src='@/assets/curso/tema3/img05.svg', alt='Texto que describa la imagen')     
-          div.p-4.fondo-e
-            p <b>Figura 10</b>. Tijeras
+              figcaption.figcaption2 Nota. Tomada de Herramientas (2021)
       .col-4.d-flex
-        div.sombra          
+        div.sombra2          
           div
+            p.tituloimagen.ms-1 Alfileres
             figure
               img(src='@/assets/curso/tema3/img06.svg', alt='Texto que describa la imagen')     
-          div.p-4.fondo-e
-            p <b>Figura 11</b>. Alfileres
+              figcaption.figcaption2 Nota. Tomada de 123rf (2021)
 
     p.mb-4 Para iniciar el descosido de prendas con tejidos planos se debe ubicar el desbaratador de modo que se vaya rompiendo toda la línea de costura, se debe finalizar retirando el exceso y, si es necesario, con la ayuda del cortahilos.
     .row.mb-4
       .col-4
+        p.tituloimagen.ms-1 Desbaratar costura plana
         figure
           img(src='@/assets/curso/tema3/img07.png', alt='Texto que describa la imagen')  
-          figcaption Figura 12. Desbaratar costura plana
+          figcaption Nota. Tomada de Skarlet Costura (2021) 
       .col-4
+        p.tituloimagen.ms-1 Apertura de textiles
         figure
           img(src='@/assets/curso/tema3/img08.png', alt='Texto que describa la imagen')  
-          figcaption Figura 13. Apertura de textiles
+          figcaption Nota. Tomada de Skarlet Costura (2021) 
       .col-4
+        p.tituloimagen.ms-1 Separación de las piezas
         figure
           img(src='@/assets/curso/tema3/img09.png', alt='Texto que describa la imagen')  
-          figcaption Figura 14. Separación de las piezas
+          figcaption Nota. Tomada de Skarlet Costura (2021) 
     
     p.mb-4 Ahora bien, la mayoría de prendas vienen también fileteadas, por lo que descoser este tipo de prendas requiere de mayor paciencia, pues por lo general son tres hilos que están presentes en el tejido de esta puntada, para ello es recomendable lo siguiente:
     
     .row.mb-4
       .col-3.d-flex
-        div.sombra           
-          div
+        div           
+          div 
+            p.tituloimagen.ms-1 Romper los hilos superiores
             figure
               img(src='@/assets/curso/tema3/img10.png', alt='Texto que describa la imagen')     
-          div.p-3.fondo-e
-            p <b>Figura 9</b>. Tiza de sastre
+              figcaption.figcaption2 Nota. Tomada de Naii (2015)
       .col-3.d-flex
-        div.sombra          
+        div          
           div
+            p.tituloimagen.ms-1 Sacar los hilos cortados
             figure
               img(src='@/assets/curso/tema3/img11.png', alt='Texto que describa la imagen')     
-          div.p-3.fondo-e
-            p <b>Figura 10</b>. Tijeras
+              figcaption.figcaption2 Nota. Tomada de Naii (2015)
       .col-3.d-flex
-        div.sombra          
+        div          
           div
+            p.tituloimagen.ms-1 Romper las puntadas de la aguja
             figure
               img(src='@/assets/curso/tema3/img12.png', alt='Texto que describa la imagen')     
-          div.p-3.fondo-e
-            p <b>Figura 11</b>. Alfileres
+              figcaption.figcaption2 Nota. Tomada de Naii (2015)
       .col-3.d-flex
-        div.sombra         
+        div         
           div
+            p.tituloimagen.ms-1 Tirar la hebra
             figure
               img(src='@/assets/curso/tema3/img13.png', alt='Texto que describa la imagen')     
-          div.p-3.fondo-e
-            p <b>Figura 11</b>. Alfileres
+              figcaption.figcaption2 Nota. Tomada de Naii (2015)
 
     p.mb-4 Una vez se tienen desarmadas las piezas que sean necesarias para iniciar con el arreglo, estas se contemplarán como los patrones que son en realidad, por lo anterior, el siguiente apartado contendrá cómo hacer los arreglos respectivos para las modificaciones.
     
     .row.mb-4
       .col-2
       .col-8
-        .cajon.color-primario.fondo-f.p-5.mb-4      
+        .cajon.color-primario.fondo-f.p-5   
           p Cuando se hace un arreglo de prenda y se tiene una buena comprensión de los patrones, desbaratar todo para los expertos no es necesario, <b>esto lo lograrás con la práctica</b>.
       .col-2
 
-    .p.mb-4 Para reparar un vestido, que queda amplio en la parte superior y muy justo en la parte inferior. La modista debe realizar los siguientes pasos: 
+    separador
+
+    .p.mb-5 Para reparar un vestido, que queda amplio en la parte superior y muy justo en la parte inferior. La modista debe realizar los siguientes pasos: 
     
     .row.mb-4
       .col-1
