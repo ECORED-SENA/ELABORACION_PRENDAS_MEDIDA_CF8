@@ -41,8 +41,9 @@
 
       .col-5.p-4.fondo-c.d-flex.align-items-center.justify-content-center
         figure
-          img(src='@/assets/curso/tema1/img02.svg', alt='Texto que describa la imagen')
-          figcaption Tipos de raza
+          p.BorTit Tipos de raza
+          img(src='@/assets/curso/tema1/img02.svg', alt='Texto que describa la imagen')  
+          figcaption Nota. Tomada de Plásticamente bilingüe (2021)        
       .col-1
 
     .titulo-tercero
@@ -122,7 +123,7 @@
           p Durante el procedimiento se debe ir ajustando con alfileres o hilvanando la prenda de ser necesario, luego marcar las líneas de lo que se quiere hacer y dibujando sobre la prenda puesta, ya en el boceto dibujado ir anotando las distancias y medidas para realizar aumentos o acortar largos. <b>Después se procede a quitar la pieza dejando los alfileres puestos.</b> 
 
       .col-5.p-4.fondo-c       
-        p.tituloimagen Medición
+        p.BorTit Medición
         figure
           img(src='@/assets/curso/tema1/img07.png', alt='Texto que describa la imagen')
           figcaption Nota. Tomada 1.000 cursos gratis (2019)
@@ -130,7 +131,7 @@
 
     .row.mb-5      
       .col-5
-        p.tituloimagen Maniquí de costura   
+        p.BorTit Maniquí de costura   
         figure
           img(src='@/assets/curso/tema1/img08.png', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Istock (2021)    

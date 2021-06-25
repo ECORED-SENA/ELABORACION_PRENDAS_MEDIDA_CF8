@@ -13,7 +13,7 @@
     .row.mb-5
       .col-3
       .col-6
-        p.tituloimagen.ms-1 Supraciclaje
+        p.BorTit.ms-1 Supraciclaje
         figure
           img(src='@/assets/curso/tema4/img01.svg', alt='Texto que describa la imagen')              
       .col-3
@@ -26,7 +26,7 @@
             p El SENA ha sido una de las instituciones que ha puesto su mira en generar productos bajo el supraciclaje, tomando pedazos de telas, prendas que han sido desechadas y que pasan por procesos cuidadosos de selección y separación de textiles en cuanto a su composición para construir propuestas novedosas, no solo aplicadas al vestuario, sino a elementos de protección en general (El Nuevo Siglo, 2017). Son muchos los retos que a empresarios e instituciones educativas les espera en cuanto a su aporte para ayudar al cuidado del planeta.
       .col-4    
         figure
-          p.tituloimagen.ms-1 Supraciclaje
+          p.BorTit.ms-1 Supraciclaje
           img(src='@/assets/curso/tema4/img02.png', alt='Texto que describa la imagen')   
           figcaption Nota. Tomada de Sea (2021)
 
@@ -35,7 +35,7 @@
     .row.mb-5
       .col-7.d-flex.align-items-center
         figure
-          p.tituloimagen.ms-1 Residuos textiles
+          p.BorTit.ms-1 Residuos textiles
           img(src='@/assets/curso/tema4/img03.png', alt='Texto que describa la imagen')   
           figcaption Nota. Tomada de Zicla (2019)
       .col-5.d-flex
@@ -72,7 +72,7 @@
 
     p.mb-4 Para muchos es sencillo expresar que es mejor la eliminación de productos, pero estos emiten gases y elementos que son perjudiciales para el planeta, pues debilitan la capa de ozono afectando el mundo entero, es por esto que se debe ser más consciente a la hora de seleccionar los productos y velar porque la composición y combinación sean las adecuadas. Las fibras, como bien se ha mencionado, pueden ser de origen natural o sintético (artificial), por lo que se encuentran un sinnúmero de resultados en cuanto a fibras textiles, como se indica en la siguiente tabla.
     
-    p.tituloimagen.ms-1 Clasificación de las fibras textiles
+    p.BorTit.ms-1 Clasificación de las fibras textiles
     .tabla-b.color-primario
       .tabla-b__header
         h2.mb-0 Fibras naturales      
@@ -133,7 +133,7 @@
       .col-2
       .col-8
         figure
-          p.tituloimagen.ms-1 Manejo de residuos textiles.
+          p.BorTit.ms-1 Manejo de residuos textiles.
           img.mb-4(src='@/assets/curso/tema4/img07.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de García (2018)
       .col-2
@@ -148,7 +148,7 @@
       .col-3
       .col-6
         figure
-          p.tituloimagen.ms-1 Proceso          
+          p.BorTit.ms-1 Proceso          
           img(src='@/assets/curso/tema4/img08.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de García (2018)
       .col-3
@@ -159,7 +159,7 @@
       .col-2
       .col-8
         figure
-          p.tituloimagen.ms-1 Hilatura
+          p.BorTit.ms-1 Hilatura
           img(src='@/assets/curso/tema4/img09.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de García (2018)
       .col-2

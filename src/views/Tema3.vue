@@ -14,21 +14,21 @@
       .col-4.d-flex
         div.sombra2           
           div
-            p.tituloimagen.ms-1 Cortahilos o despeluzador
+            p.BorTit.ms-1 Cortahilos o despeluzador
             figure
               img(src='@/assets/curso/tema3/img01.svg', alt='Texto que describa la imagen')     
               figcaption.figcaption2 Nota. Tomada de Herramientas (2021)       
       .col-4.d-flex
         div.sombra2          
           div
-            p.tituloimagen.ms-1 Desbaratador
+            p.BorTit.ms-1 Desbaratador
             figure
               img(src='@/assets/curso/tema3/img02.svg', alt='Texto que describa la imagen')     
               figcaption.figcaption2 Nota. Tomada de Herramientas (2021) 
       .col-4.d-flex
         div.sombra2          
           div
-            p.tituloimagen.ms-1 Metro
+            p.BorTit.ms-1 Metro
             figure
               img(src='@/assets/curso/tema3/img03.svg', alt='Texto que describa la imagen')     
               figcaption.figcaption2 Nota. Tomada de Herramientas (2021) 
@@ -36,21 +36,21 @@
       .col-4.d-flex
         div.sombra2           
           div
-            p.tituloimagen.ms-1 Tiza de sastre
+            p.BorTit.ms-1 Tiza de sastre
             figure
               img(src='@/assets/curso/tema3/img04.svg', alt='Texto que describa la imagen')     
               figcaption.figcaption2 Nota. Tomada de Vestuario (s.f.)
       .col-4.d-flex
         div.sombra2          
           div
-            p.tituloimagen.ms-1 Tijeras
+            p.BorTit.ms-1 Tijeras
             figure
               img(src='@/assets/curso/tema3/img05.svg', alt='Texto que describa la imagen')     
               figcaption.figcaption2 Nota. Tomada de Herramientas (2021)
       .col-4.d-flex
         div.sombra2          
           div
-            p.tituloimagen.ms-1 Alfileres
+            p.BorTit.ms-1 Alfileres
             figure
               img(src='@/assets/curso/tema3/img06.svg', alt='Texto que describa la imagen')     
               figcaption.figcaption2 Nota. Tomada de 123rf (2021)
@@ -58,17 +58,17 @@
     p.mb-4 Para iniciar el descosido de prendas con tejidos planos se debe ubicar el desbaratador de modo que se vaya rompiendo toda la línea de costura, se debe finalizar retirando el exceso y, si es necesario, con la ayuda del cortahilos.
     .row.mb-4
       .col-4
-        p.tituloimagen.ms-1 Desbaratar costura plana
+        p.BorTit.ms-1 Desbaratar costura plana
         figure
           img(src='@/assets/curso/tema3/img07.png', alt='Texto que describa la imagen')  
           figcaption Nota. Tomada de Skarlet Costura (2021) 
       .col-4
-        p.tituloimagen.ms-1 Apertura de textiles
+        p.BorTit.ms-1 Apertura de textiles
         figure
           img(src='@/assets/curso/tema3/img08.png', alt='Texto que describa la imagen')  
           figcaption Nota. Tomada de Skarlet Costura (2021) 
       .col-4
-        p.tituloimagen.ms-1 Separación de las piezas
+        p.BorTit.ms-1 Separación de las piezas
         figure
           img(src='@/assets/curso/tema3/img09.png', alt='Texto que describa la imagen')  
           figcaption Nota. Tomada de Skarlet Costura (2021) 
@@ -79,28 +79,28 @@
       .col-3.d-flex
         div           
           div 
-            p.tituloimagen.ms-1 Romper los hilos superiores
+            p.BorTit.ms-1 Romper los hilos superiores
             figure
               img(src='@/assets/curso/tema3/img10.png', alt='Texto que describa la imagen')     
               figcaption.figcaption2 Nota. Tomada de Naii (2015)
       .col-3.d-flex
         div          
           div
-            p.tituloimagen.ms-1 Sacar los hilos cortados
+            p.BorTit.ms-1 Sacar los hilos cortados
             figure
               img(src='@/assets/curso/tema3/img11.png', alt='Texto que describa la imagen')     
               figcaption.figcaption2 Nota. Tomada de Naii (2015)
       .col-3.d-flex
         div          
           div
-            p.tituloimagen.ms-1 Romper las puntadas de la aguja
+            p.BorTit.ms-1 Romper las puntadas de la aguja
             figure
               img(src='@/assets/curso/tema3/img12.png', alt='Texto que describa la imagen')     
               figcaption.figcaption2 Nota. Tomada de Naii (2015)
       .col-3.d-flex
         div         
           div
-            p.tituloimagen.ms-1 Tirar la hebra
+            p.BorTit.ms-1 Tirar la hebra
             figure
               img(src='@/assets/curso/tema3/img13.png', alt='Texto que describa la imagen')     
               figcaption.figcaption2 Nota. Tomada de Naii (2015)
@@ -141,9 +141,14 @@
 
     .row.mb-4
       .col-2
-      .col-8
+      .col-4(style="background-color: #EDE3B7")
         figure
-          img(src='@/assets/curso/tema3/img14.svg', alt='Texto que describa la imagen')     
+          p.BorTit Vestido clásico
+          img(src='@/assets/curso/tema3/img14.png', alt='Texto que describa la imagen')  
+      .col-4(style="background-color: #F6F0D5")
+        figure
+          p.BorTit Patrón de vestido
+          img(src='@/assets/curso/tema3/img15.png', alt='Texto que describa la imagen')   
       .col-2
 
     p.mb-4 Se debe tener en cuenta que la ampliación de esta parte puede resultar de lo que se liberó de medida en el superior, otra solución, si no se cuenta con la tela suficiente, es añadir a los costados rectificando la medida del contorno de cadera y la línea se trazará por fuera del patrón hasta que coincida con la medida. 
