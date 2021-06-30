@@ -19,11 +19,13 @@
       .col-3
 
     .row.mb-5
-      .col-8.d-flex.flex-column.align-items-stretch
-        
-          p.mb-4 Entre varias de las ventajas que suele traer esta práctica están la reducción del consumo masivo de productos al alargar su vida útil, reducir las enormes cantidades de desecho textil, dar valor agregado a productos artesanales y las personas dedicadas al oficio, fomentar la sostenibilidad responsable desde quien realiza el producto hasta quien lo vende y entrega, además de contribuir al cuidado del medioambiente del planeta siendo este un objetivo perseguido por muchos.
-          .cajon.color-primario.fondo-f.p-5
-            p El SENA ha sido una de las instituciones que ha puesto su mira en generar productos bajo el supraciclaje, tomando pedazos de telas, prendas que han sido desechadas y que pasan por procesos cuidadosos de selección y separación de textiles en cuanto a su composición para construir propuestas novedosas, no solo aplicadas al vestuario, sino a elementos de protección en general (El Nuevo Siglo, 2017). Son muchos los retos que a empresarios e instituciones educativas les espera en cuanto a su aporte para ayudar al cuidado del planeta.
+      .col-8.d-flex.flex-column
+        //div.border Flex item 1
+        //div.border Flex item 2
+        //div.border(style="height:100%") Flex item 3
+        p.mb-4 Entre varias de las ventajas que suele traer esta práctica están la reducción del consumo masivo de productos al alargar su vida útil, reducir las enormes cantidades de desecho textil, dar valor agregado a productos artesanales y las personas dedicadas al oficio, fomentar la sostenibilidad responsable desde quien realiza el producto hasta quien lo vende y entrega, además de contribuir al cuidado del medioambiente del planeta siendo este un objetivo perseguido por muchos.
+        .cajon.color-primario.fondo-f.p-5.d-flex.align-items-center(style="height: 100%")
+          p El SENA ha sido una de las instituciones que ha puesto su mira en generar productos bajo el supraciclaje, tomando pedazos de telas, prendas que han sido desechadas y que pasan por procesos cuidadosos de selección y separación de textiles en cuanto a su composición para construir propuestas novedosas, no solo aplicadas al vestuario, sino a elementos de protección en general (El Nuevo Siglo, 2017). Son muchos los retos que a empresarios e instituciones educativas les espera en cuanto a su aporte para ayudar al cuidado del planeta.
       .col-4    
         figure
           p.BorTit.ms-1 Supraciclaje
