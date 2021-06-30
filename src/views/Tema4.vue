@@ -78,50 +78,53 @@
         h2.mb-0 Fibras naturales      
       table               
         tr
-          th De origen Animal
-          td 
-            p Ovinos
-            p Pelos finos (caprinos, camélidos, lepóridos)
-            p Seda
-          td 
-            p Lana
-            p Alpaca, Angora, Cachemira, Camello, Llama, Mohair, etc.
-            p Bombix Mori. Tussah
+          th(rowspan=3 style="background-color:white; border-bottom:1px solid #E8E8E8") De origen Animal
+          td Ovinos            
+          td Lana
+           
+        tr         
+          td Pelos finos (caprinos, camélidos, lepóridos)          
+          td Alpaca, Angora, Cachemira, Camello, Llama, Mohair, etc.           
+        tr        
+          td Seda
+          td Bombix Mori. Tussah
 
         tr
-          th De origen vegetal
-          td 
-            p Fruto
-            p Tallo
-            p Hoja
-          td 
-            p Algodón, Coco, Kapoc
-            p Lino, Yute, Cáñamo, Ramio
-            p Sisal, Formio, Abacá, Chaguar
+          th(style="background-color:#F6F6F6;" rowspan=3) De origen vegetal
+          td Fruto           
+          td Algodón, Coco, Kapoc           
+        tr       
+          td Tallo           
+          td Lino, Yute, Cáñamo, Ramio
+        tr       
+          td Hoja           
+          td Sisal, Formio, Abacá, Chaguar
+           
+            
+        
     .tabla-b.color-primario.mb-4
       .tabla-b__header
         h2.mb-0 Fibras manufacturadas
       table
         caption Nota. Tomada de García (2018)
-        tr
-          th Artificiales o Regeneradas
-          td 
-            p De celulosa
-            p De celulosa regenerada
-          td 
-            p Rayón viscosa, Rayón modal, Rayón cuproamonio
-            p Acetato de celulosa, triacetato de celulosa
-
-        tr
-          th Artificiales o Regeneradas
-          td 
-            p Monocomponentes
-            p Biocomponentes
-            p Microfibras
-          td 
-            p Poliamida, Poliéster, Acrílicas, 
-            p Modacrílicas, Olefinicas, 
-            p Elastometicas, Aramídicas
+        tr.sin-fondo
+          th(rowspan=2 style="border-bottom:1px solid #E8E8E8") Artificiales o Regeneradas
+          td De celulosa           
+          td Rayón viscosa, Rayón modal, Rayón cuproamonio        
+        tr(style="background-color:#F6F6F6;")          
+          td De celulosa regenerada
+          td Acetato de celulosa, triacetato de celulosa
+        
+        tr.sin-fondo
+          th(style="background-color:#F6F6F6;" rowspan=3) Artificiales o Regeneradas
+          td Monocomponentes           
+          td Poliamida, Poliéster, Acrílicas,            
+        tr(style="background-color:#F6F6F6;")     
+          td Biocomponentes          
+          td Modacrílicas, Olefinicas,           
+        tr.sin-fondo        
+          td Microfibras
+          td Elastometicas, Aramídicas
 
     .row.mb-4
       .col-1
@@ -160,7 +163,7 @@
       .col-8
         figure
           p.BorTit.ms-1 Hilatura
-          img(src='@/assets/curso/tema4/img09.svg', alt='Texto que describa la imagen')
+          img.mb-3(src='@/assets/curso/tema4/img09.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de García (2018)
       .col-2
     //.align-items-center

@@ -42,7 +42,7 @@
       .col-5.p-4.fondo-c.d-flex.align-items-center.justify-content-center
         figure
           p.BorTit Tipos de raza
-          img(src='@/assets/curso/tema1/img02.svg', alt='Texto que describa la imagen')  
+          img(src='@/assets/curso/tema1/img02.png', alt='Texto que describa la imagen')  
           figcaption Nota. Tomada de Plásticamente bilingüe (2021)        
       .col-1
 
@@ -138,7 +138,17 @@
       .col-7.d-flex
         .cajon.color-primario.fondo-a.p-5.d-flex.align-items-center
           div
-            p Si se tiene un maniquí de costura, <b>se debe colocar la prenda allí para definir mejor las líneas dibujadas</b>, pues sobre la persona es más complejo este proceso. Este paso se puede ejecutar con la prenda completa o con el desmontaje de piezas ya realizadas.
+            p Si se tiene un maniquí de costura, <b>se debe colocar la prenda allí para definir mejor las líneas dibujadas</b>, pues sobre la persona es más complejo este proceso. Este paso se puede ejecutar con la prenda completa o con el desmontaje de piezas ya realizadas.            
+
+    .row.mb-5      
+      .col-5
+        //p.BorTit Maniquí de costura   
+        figure
+          img(src='@/assets/curso/tema1/img09.png', alt='Texto que describa la imagen')          
+          figcaption Nota. Tomada de Istock (2021) 
+      .col-7.d-flex
+        .cajon.color-primario.fondo-f.p-5.d-flex.align-items-center
+          div                      
             p Por último, <b>se debe ubicar la prenda en una superficie plana</b>, suavizar con las reglas de patronaje y apoyarse con la cinta métrica para las distancias. Luego hay que analizar, según la necesidad de ajuste, el desarmado de la prenda y proceder a ejecutar los ajustes.
     //.align-items-center
     //.justify-content-center
