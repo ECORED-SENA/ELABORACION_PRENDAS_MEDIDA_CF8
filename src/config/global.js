@@ -117,7 +117,6 @@ export default {
     {
       referencia:
         'De Duarte, N. (1983). Conocimientos básicos de corte. Unidad instruccional No. 3 [Ebook]. Servicio Nacional de Aprendizaje SENA. ',
-      link: 'https://hdl.handle.net/11404/1432.',
     },
     {
       referencia:
