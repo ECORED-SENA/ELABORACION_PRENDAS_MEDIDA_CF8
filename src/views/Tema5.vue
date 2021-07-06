@@ -10,9 +10,23 @@
 
     p.mb-4 Los acabados en una prenda son los que le permiten darle el toque final, <b>muchas veces son los que realzan y les dan el elemento diferenciador.</b> Algunos de los terminados son despeluce de la prenda, el lavado si es necesario por algún proceso implementado, el planchado a vapor si es preferible, la medición y la entrega.
 
-    figure.mb-4
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)        
+    .row.mb-5
+      .col-lg-2
+      .col-lg-8
+         .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/template/icono-pdf.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 INFOGRAFIA
+                  p.text-small Acabados y terminados
+                .col-sm-auto
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Terminados y acabados.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+      .col-lg-2
 
     .row     
       .col-12.px-5

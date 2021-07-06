@@ -15,9 +15,9 @@
       h2 1.1 Análisis ergonómico del cliente
 
     figure.mb-4
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
-    
+      .video  
+        iframe(iframe width="1255" height="706" src="https://www.youtube.com/embed/-3iETPRjy5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+        //Video vinculado
     p El punto de partida para el análisis ergonómico es la observación. En el momento de la toma de medidas, lo primero por identificar es la silueta, luego la proporción así como la desproporción de las partes del cuerpo. Y por último la estatura, que determina el tamaño de elementos como bolsillos, botones, cruces, etc; los cuales van de acuerdo con el tamaño de la figura humana. En concordancia con lo descrito, su aplicación ayudará a mejorar la imagen estética del cliente.
 
     .row.mb-4
@@ -98,9 +98,23 @@
         
     p.mb-4 Las principales causas de anomalías en el cuerpo se dividen en patológicas y funcionales, derivadas de hábitos posturales y malformaciones adquiridas. Con respecto al oficio de modista o sastre, saber detectarlas logra ampliar el entendimiento de los puntos en el patrón o prenda desarmada que deban ajustarse. La inclinación del cuerpo, por ejemplo, cambia la línea de manga y el calce del frente, además de la espalda de la prenda. Los hombros se ven afectados en cuanto a la caída y el pecho con alteraciones no solo afecta al frente, sino a toda la pieza en general. Este análisis aplica para cualquier línea ya sea femenina, masculina e infantil.
     
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+    .row.mb-5
+      .col-lg-2
+      .col-lg-8
+         .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/template/icono-pdf.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 INFOGRAFIA
+                  p.text-small Causas de anomalías del cuerpo
+                .col-sm-auto
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/CF8_B_2_Anomalias_Cuerpo.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+      .col-lg-2
     
     #t_1_2.titulo-segundo
       h2 1.2 Medición y señalizado de la prenda
